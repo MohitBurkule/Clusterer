@@ -1,0 +1,9 @@
+#for Clustering on specific features of data <br>
+Method 1 ) Use pd, Create duplicate DataSet , drop unnecessary cols , cluster , get indexes , add other columns based on indexes(!may use index as feature for cluster)<br>
+Method 2) create a scale and anti-scale multiplier matrix , scale all non imp features close to 0 <br>
+<br>
+#for same size clustering<br>
+Method 1) Use clusterer.recluster() on big dataset (! manual similar size clustering)<br>
+Method 2) https://github.com/sunflower6069/Same-Size-K-Means-Clustering <br>
+#for Anticlutser<br>
+refer https://github.com/m-Py/anticlust
